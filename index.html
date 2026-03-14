@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<title>Cronómetro de Competencia</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Cronómetro de Competencia</h1>
+
+<h2 id="cronometro">0.00 s</h2>
+
+<div>
+
+<input type="text" id="nombreCompetidor" placeholder="Nombre del competidor">
+
+<button onclick="agregarCompetidor()">Agregar Competidor</button>
+
+</div>
+
+<br>
+
+<div>
+
+<button onclick="iniciarCarrera()">Iniciar Carrera</button>
+
+<button onclick="finalizarCarrera()">Finalizar Carrera</button>
+
+<button onclick="reiniciarCarrera()">Reiniciar</button>
+
+</div>
+
+<br>
+
+<table id="tablaResultados">
+
+<thead>
+
+<tr>
+<th>Posición</th>
+<th>Competidor</th>
+<th>Tiempo</th>
+<th>Acción</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
